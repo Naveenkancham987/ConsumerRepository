@@ -1,0 +1,7 @@
+---
+applications:
+- name : KafkaConsumer
+  path: target\KafkaConsumer-0.0.1-SNAPSHOT.jar
+  memory: 1G
+services:
+- mysqlDB
